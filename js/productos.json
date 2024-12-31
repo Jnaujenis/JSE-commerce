@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "nombre": "Kit Corporal Macadamia",
+        "precio": 99.99,
+        "imagen": "./Assets/Images/smile.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Exfoliante Corporal",
+        "precio": 15.00,
+        "imagen": "./Assets/Images/Exfoliante.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Jabón Líquido",
+        "precio": 9.99,
+        "imagen": "./Assets/Images/jabon liquido.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Limpiador Rostro Pieles Sensibles",
+        "precio": 15.00,
+        "imagen": "./Assets/Images/limpieza.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "Gel Humectante para Rostro",
+        "precio": 15.99,
+        "imagen": "./Assets/Images/gelhumectante2.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "Kit Refresh Té verde",
+        "precio": 25.00,
+        "imagen": "./Assets/Images/mascarillaTeverde.jpg"
+    },
+    {
+        "id": 7,
+        "nombre": "Serum Vit C",
+        "precio": 10.99,
+        "imagen": "./Assets/Images/Serum radiante.jpg"
+    },
+    {
+        "id": 8,
+        "nombre": "Serum Aloe Vera",
+        "precio": 16.50,
+        "imagen": "./Assets/Images/SerumAloe2.jpg"
+    }
+]

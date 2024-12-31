@@ -1,0 +1,207 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+}
+
+
+header{
+    background-color:white;
+    color: darkolivegreen;
+    text-align: center;
+    padding: 10px;
+}
+a{
+    color:darkolivegreen;
+}
+a:hover{
+    color: peru;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav li{
+    display: inline;
+    margin-right: 15px;
+}
+nav li:last-child{
+    margin-right: 0;
+}
+
+
+/*Descripcion inicio*/
+
+.titulo-descripcion{
+    justify-content: center;
+    color:darkolivegreen;
+    text-align: center;
+    padding: 10px;
+}
+/*Contenido Cards inicio -- */
+.container{
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+    margin: auto;
+}
+.card{
+    width: 250%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+    padding: 20px;
+}
+
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}
+.card img{
+    width: 100%;
+    height: 210%;
+}
+.card .contenido-card{
+    padding: 15px;
+    text-align: center;
+}
+.card .contenido-card p{
+    line-height: 1.5;
+    color: #6a6a6a;
+}
+.card .contenido-card h3{
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.card .contenido-card a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    color: darkolivegreen;
+    border: 1px solid darkolivegreen;
+    border-radius: 4px;
+    transition: all 400ms ease;
+}
+.card .contenido-card a:hover{
+    background: darkolivegreen;
+    color: #fff;
+}
+
+
+main.product-flex{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/*Productos*/
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.product img {
+    width: 100%;
+    max-width: 100%;
+    margin: 10px 0;
+    margin-bottom: 10px;
+}
+.product button:hover{
+    color: darkolivegreen;
+    background: #ccc;
+}
+
+.comprar-btn{
+    background-color: peru;
+    display: block;
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+button:hover{
+    color: #ccc;
+}
+button{
+    padding: 5px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: darkolivegreen;
+    cursor: pointer;
+    color: #ccc;
+}
+
+
+footer{
+    background-color: darkolivegreen;
+    color: #ccc;
+    text-align: center;
+    padding: 20px;
+}
+.footer-bottom {
+    margin-top: 20px;
+}
+
+/* Media Queries */
+
+/* Pantallas pequeñas (móviles) */
+@media (max-width: 576px) {
+    .card {
+        max-width: 100%;
+        margin: 10px 0;
+    }
+@media screen and(max-width:1080px) {
+        .contact-form, main{
+            max-width: 600px;
+            margin: 0 auto;
+        }
+    } 
+        .card img {
+        height: 140px;
+    }
+}
+
+/* Pantallas grandes (desktops) */
+@media (min-width: 769px) and (max-width: 992px) {
+    .card {
+        max-width: 320px;
+        margin: 15px;
+    }
+
+    .card img {
+        height: 180px;
+    }
+    
+}

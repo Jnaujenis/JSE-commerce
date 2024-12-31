@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./Assets/Images/LogoOliviebeig.jpg" type="image/x-icon">
+</head>
+<body>
+    <script src="./js/script.js"></script>
+    <header>
+        <h1>Carrito de compras</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="./producto.html">Productos</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+                <li> <a href="./carrito.html"> <img src="./Assets/Images/cart-regular-24.png" alt="Carrito de compras" /> </a> </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="cart">
+            <h2>Productos en el carrito</h2>
+            <ul id="lista-carrito"></ul>
+                <p id="total-carrito"></p>
+            <button onclick="completarCompra()" class="comprar-btn">Comprar</button>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-section contact">
+        <h2>Contacto</h2>
+            <p><i class="phone"></i> +54 221 3144329</p>
+            <p><i class="mail"></i> info@Oliviestore.com</p>
+            <p><i class="direccion"></i> Lavalle - CABA</p>
+
+        <div class="footer-section social">
+            <h2>Únete a nuestra comunidad de belleza consciente</h2>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/"><img width="34" height="34" src="https://img.icons8.com/ios/50/facebook--v1.png" alt="facebook--v1"/></a>
+            <a href="https://www.instagram.com/"><img width="34" height="34" src="https://img.icons8.com/parakeet-line/48/instagram-new.png" alt="instagram-new"/></a>
+        </div>
+        <div class="footer-bottom">
+            <small><p> &copy; Olivie 2024 Todos los derechos reservados</p></small>
+        </div>
+    </footer>
+
+</body>
+</html>
